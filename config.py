@@ -5,7 +5,7 @@ class Config:
     """Main configurations class"""
 
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://iankipkoech:koech150@localhost/blog'
-    SECRET_KEY = 'oruko@jkl'
+    SECRET_KEY = 'eyern'
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587

@@ -1,14 +1,14 @@
 .error-template {
-    padding: 40px 15px;
+    padding: 45px 15px;
     text-align: center;
     font-family: 'Russo One', sans-serif;
   }
   .error-actions {
-    margin-top:15px;
-    margin-bottom:15px;
+    margin-top:16px;
+    margin-bottom:16px;
   }
   .error-actions .btn {
-     margin-right:10px;
+     margin-right:13px;
    }
   
    /*font-family: 'Bungee', cursive;

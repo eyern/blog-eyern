@@ -33,7 +33,7 @@ src="{{ post.author.gravatar(size=40) }}">
     <div class="col-xs-4">
       <div class="well" style="margin-top:10%; margin-bottom:10%">
         <h1 class="text-center">HELLO WORLD!</h1>
-        <h2 class="text-center">Welcome to Blogger</h2>
+        <h2 class="text-center">Start Your Blog</h2>
         <a href="{{url_for('auth.login')}}">
         <button type="click" name="button" class="btn btn-default btn-primary" id="sign-in">LOG IN</button>
       </a>
@@ -79,7 +79,10 @@ font-family: 'Berkshire Swash', cursive;*/
     }
 
     .wrap {
-      background-color: #2471A3;
+       background: linear-gradient(#000 0%, #222 100%);
+  height: 100vh;
+color: green;
+}
     }
   </style>
   {% endblock %} {% endblock %}
